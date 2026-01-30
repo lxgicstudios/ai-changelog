@@ -30,19 +30,25 @@
     "access": "public"
   },
   "keywords": [
-    "ai", "llm", "claude", "anthropic",
-    "openai",
-    "gpt",
-    "changelog",
-    "release-notes",
-    "git",
-    "semver",
-    "versioning",
-    "developer-tools",
-    "cli",
+    "agentic",
+    "ai",
+    "ai-agent",
+    "anthropic",
     "automation",
-    "typescript",
+    "changelog",
+    "claude",
+    "cli",
+    "conventional-commits",
+    "developer-tools",
+    "git",
+    "gpt",
+    "llm",
     "nodejs",
-    "conventional-commits"
+    "openai",
+    "release-notes",
+    "semver",
+    "typescript",
+    "versioning",
+    "zero-config"
   ]
 }
