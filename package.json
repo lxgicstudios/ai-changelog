@@ -39,17 +39,17 @@
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/@lxgicstudios/ai-changelog#readme",
+  "homepage": "https://github.com/lxgicstudios/ai-changelog#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/ai-changelog"
+    "url": "git+https://github.com/lxgicstudios/ai-changelog.git"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/@lxgicstudios/ai-changelog/issues"
+    "url": "https://github.com/lxgicstudios/ai-changelog/issues"
   },
   "funding": {
     "type": "github",
-    "url": "https://github.com/sponsors/LXGIC-Studios"
+    "url": "https://github.com/sponsors/lxgicstudios"
   },
   "engines": {
     "node": ">=18.0.0"
