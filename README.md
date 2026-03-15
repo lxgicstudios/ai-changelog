@@ -48,3 +48,12 @@ It'll group your commits into Added, Changed, Fixed, Removed. No more hand-writi
 4. Prints it or writes it to a file
 
 That's it. Nothing fancy, just saves you 20 minutes every release.
+
+
+---
+
+Built by [LXGIC Studios](https://github.com/LXGIC-Studios)
+
+🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)
+
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
