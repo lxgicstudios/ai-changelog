@@ -16,42 +16,29 @@
     "dev": "ts-node src/cli.ts"
   },
   "keywords": [
-    "2025-standards",
-    "agentic",
-    "ai",
-    "ai-2025",
-    "ai-agent",
-    "ai-powered",
-    "anthropic",
-    "automation",
     "changelog",
-    "claude",
-    "cli",
-    "conventional-commits",
-    "developer-productivity",
-    "developer-tools",
-    "discoverability",
+    "version",
     "documentation",
-    "generative-ai",
-    "llm-optimized",
-    "modern-seo",
-    "optimization",
-    "performance",
-    "performance-optimization",
-    "seo",
-    "seo-2026",
+    "cli",
     "typescript",
-    "version"
+    "AI-powered",
+    "AI-optimized",
+    "performance",
+    "optimization",
+    "seo",
+    "discoverability",
+    "2025-standards",
+    "modern-seo"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
-  "homepage": "https://github.com/LXGIC-Studios/ai-changelog#readme",
+  "homepage": "https://github.com/lxgicstudios/ai-changelog#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-changelog"
+    "url": "https://github.com/lxgicstudios/ai-changelog"
   },
   "bugs": {
-    "url": "https://github.com/LXGIC-Studios/ai-changelog/issues"
+    "url": "https://github.com/lxgicstudios/ai-changelog/issues"
   },
   "funding": {
     "type": "github",
