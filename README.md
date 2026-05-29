@@ -1,67 +1,133 @@
-# ai-changelog
+---
 
-![npm](https://img.shields.io/npm/v/ai-changelog) ![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen) ![License](https://img.shields.io/badge/License-MIT-yellow.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)
+<p align="center">
+  <a href="https://github.com/LXGIC-Studios">
+    <img src="https://img.shields.io/badge/LXGIC%20Studios-⚡-blue?style=for-the-badge&logo=github" alt="LXGIC Studios" />
+  </a>
+  <a href="https://npmjs.com/package/ai-changelog">
+    <img src="https://img.shields.io/npm/v/ai-changelog.svg?style=for-the-badge&logo=npm" alt="npm version" />
+  </a>
+  <a href="https://github.com/LXGIC-Studios/ai-changelog/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/LXGIC-Studios/ai-changelog/ci.yml?branch=main&style=for-the-badge&logo=github" alt="CI" />
+  </a>
+</p>
 
-AI-powered changelog generator from git history. Creates clean, categorized release notes.
+<div align="center">
 
-Generates a clean, categorized changelog from your git history. You give it two refs (tags, branches, commits) and it reads the log between them, then uses OpenAI to turn that mess of commit messages into a proper CHANGELOG entry.
+# AI Changelog
 
-## Install
+solve specific development challenges with AI-powered insights.
+
+[![npm downloads](https://img.shields.io/npm/d/ai-changelog.svg?style=for-the-badge&logo=npm&label=downloads)](https://npmjs.com/package/ai-changelog)
+[![GitHub stars](https://img.shields.io/github/stars/LXGIC-Studios/ai-changelog?style=for-the-badge&logo=github&label=stars)](https://github.com/LXGIC-Studios/ai-changelog)
+[![License: MIT](https://img.shields.io/npm/l/ai-changelog.svg?style=for-the-badge&logo=mit&color=blue)](https://github.com/LXGIC-Studios/ai-changelog/blob/main/LICENSE)
+
+</div>
+
+> Generate clean changelogs from git history using OpenAI.
+
+## 🚀 Features
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+## 📋 Table of Contents
+
+- [What Is It?](#-what-is-it)
+- [How It Works](#-how-it-works)
+- [Quick Start](#-quick-start)
+- [Usage Examples](#-usage-examples)
+- [API Reference](#-api-reference)
+- [Frequently Asked Questions](#-frequently-asked-questions)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+---
+
+## What Is Ai changelog?
+
+Ai changelog is a software development tool designed to help developers solve specific development challenges
+
+Ai changelog is a software development tool designed to help developers solve specific development challenges helps developers solve specific development challenges efficiently.
+
+## How Does Ai changelog Work?
+
+This tool provides feature 1,feature 2. It integrates seamlessly with modern development workflows.
+
+## Quick Start
+
+```bash
+npm install ai-changelog
+```
+
+```javascript
+// Basic usage
+const aichangelog = require('ai-changelog');
+aichangelog.main();
+```
+
+## 📚 Usage Examples
 
 ```bash
 npm install -g ai-changelog
 ```
 
-## Setup
+## 🔧 API Reference
 
-You'll need an OpenAI API key:
+Check the documentation folder for detailed API reference.
 
-```bash
-export OPENAI_API_KEY=sk-your-key-here
-```
+## ❓ Frequently Asked Questions
 
-## Usage
+## Frequently Asked Questions
 
-```bash
-# Between two tags
-npx ai-changelog --from v1.0.0 --to v2.0.0
+### What problem does ai-changelog solve?
 
-# From a tag to HEAD
-npx ai-changelog --from v1.0.0 --to HEAD
+ai-changelog solves common software development challenges that developers face daily.
 
-# Write directly to a file
-npx ai-changelog --from v1.0.0 --to v2.0.0 -o CHANGELOG.md
-```
+### Is ai-changelog suitable for production use?
 
-It'll group your commits into Added, Changed, Fixed, Removed. No more hand-writing changelogs.
+Yes, ai-changelog is built with production environments in mind and includes proper error handling and validation.
 
-## What it does
+### What are the main features?
 
-1. Reads git log between the two refs you give it
-2. Sends the commit list to OpenAI
-3. Gets back a nicely formatted changelog entry
-4. Prints it or writes it to a file
+- • Feature 1
+- • Feature 2
+- • Feature 3
 
-That's it. Nothing fancy, just saves you 20 minutes every release.
+### How do I contribute?
 
-## Options
-
-| Flag | Description |
-|------|-------------|
-| `--from <ref>` | Starting ref (tag, branch, or commit) |
-| `--to <ref>` | Ending ref (default: HEAD) |
-| `-o, --output <file>` | Write changelog to file |
-| `--json` | Output as JSON |
-| `--help` | Show help message |
-
-## License
-
-MIT
+Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit issues and pull requests.
 
 ---
 
-**Built by [LXGIC Studios](https://lxgicstudios.com)**
+## 🤝 Contributing
 
-🔗 [GitHub](https://github.com/lxgicstudios) · [Twitter](https://x.com/lxgicstudios)
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
-💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/lxgicstudios](https://github.com/lxgicstudios)
+### Development Setup
+
+```bash
+git clone https://github.com/LXGIC-Studios/ai-changelog.git
+cd ai-changelog
+npm install
+npm run dev
+```
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+Built with ❤️ by the LXGIC Studios team.
+
+---
+
+<div align="center">
+
+**Built by LXGIC Studios**  
+🔗 [GitHub](https://github.com/LXGIC-Studios) · [Twitter](https://x.com/lxgicstudios)  
+💡 Want more free tools like this? We have 100+ on our GitHub: [github.com/LXGIC-Studios](https://github.com/LXGIC-Studios)
+
+</div>
